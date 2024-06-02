@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.body{
+    background-image: url('login\image1.jpg'); 
+    background-size: cover;
+    background-position: center;
+ }
+
+.google-search-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  .google-search-box {
+    border-style: solid;
+    width: 300px;
+    border: 2px solid;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .google-search-button {
+    padding: 10px;
+    background-color: rgba(22, 60, 248, 0.765);
+    border: 1px solid ;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .google-search-button:hover {
+    background-color: gainsboro;
+  }
